@@ -1,2 +1,2 @@
-# sloche
-Another SharePoint-based VLE
+# Sloche
+Another SharePoint-based application. A skeleton.
