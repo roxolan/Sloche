@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="b40cc9a7-8b4b-4121-a05e-1018a3a839b0" 
+        solutionId="b40cc9a7-8b4b-4121-a05e-1018a3a839b0" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="Sloche"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="631489fd-51bb-4ec7-8096-d0586915711b" />
+  </features>
+</package>
