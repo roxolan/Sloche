@@ -11,6 +11,7 @@
     <script type="text/javascript" src="../Scripts/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="/_layouts/15/sp.runtime.js"></script>
     <script type="text/javascript" src="/_layouts/15/sp.js"></script>
+    <script src="https://fb.me/react-with-addons-0.13.3.js"></script>
     <meta name="WebPartPageExpansion" content="full" />
 
     <!-- Add your CSS styles to the following file -->
@@ -30,8 +31,7 @@
 
     <div>
         <p id="message">
-            <!-- The following content will be replaced with the user name when you run the app - see App.js -->
-            NAPA does not allow creating Remote Hosting add-ins...
+            is ReactJS around?...
         </p>
     </div>
 
