@@ -19,6 +19,15 @@ function getUserName() {
 function onGetUserNameSuccess() {
   $('#message').text('Hello ' + user.get_title());
   $('#message').append('<br/>ReactJS is around!');
+  var HelloPrinting = React.createClass({
+    render: function () {
+      return(
+        React.createElement("div", {className: "container"}),
+          React.createElement("h1", null, "Getting Started...")
+      );
+    }
+  });
+  React.render(React.createElement(HelloPrinting, null), message);
 }
 
 // This function is executed if the above call fails
