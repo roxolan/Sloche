@@ -13,6 +13,8 @@
     <script type="text/javascript" src="/_layouts/15/sp.js"></script>
     <script src="https://fb.me/react-with-addons-0.13.3.js"></script>
     <script src="https://fb.me/JSXTransformer-0.13.3.js"></script>
+    <script src="../SiteAssets/sjh.js"></script>
+
     <meta name="WebPartPageExpansion" content="full" />
 
     <!-- Add your CSS styles to the following file -->

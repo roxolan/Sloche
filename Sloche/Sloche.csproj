@@ -47,6 +47,7 @@
     <Content Include="ConfigurationValues\Elements.xml" />
     <Content Include="ConfigurationValues\Schema.xml" />
     <Content Include="SiteAssets\Elements.xml" />
+    <Content Include="SiteAssets\sjh.js" />
     <None Include="ConfigurationValues\ConfigurationValuesInstance\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{61a27547-284c-4332-a3a3-7670caeb0599}</SharePointProjectItemId>
     </None>
