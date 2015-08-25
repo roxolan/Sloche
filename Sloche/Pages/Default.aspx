@@ -32,8 +32,31 @@
 <%-- The markup and script in the following Content element will be placed in the <body> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
 
+    <script type="text/jsx">
+        var HelloWorld = React.createClass({
+            render: function() {
+            return (
+                <p>
+                    Hello, <input type="text" placeholder="Your name here" />!
+                    It is {this.props.date.toTimeString()}
+                </p>
+                );
+            }
+        });
+
+        setInterval(function() {
+            React.render(
+                <HelloWorld date={new Date()} />,
+                document.getElementById('example')
+            );
+        }, 500);
+    </script>
+
     <div>
         <p id="message">
+            is ReactJS around?...
+        </p>
+        <p id="example">
             is ReactJS around?...
         </p>
     </div>
