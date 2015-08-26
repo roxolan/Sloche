@@ -60,6 +60,7 @@
     </None>
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
+    <None Include="Scripts\hello.jsx" />
     <None Include="SiteAssets\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{455d6d01-400a-4385-9d1c-9cef24926075}</SharePointProjectItemId>
     </None>
