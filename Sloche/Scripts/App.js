@@ -1,7 +1,20 @@
 ﻿'use strict';
 
+// SP.SOD.executeFunc('sp.js', 'SP.ClientContext', setItRight);
+/* 
+  A useful set of tips on loading scripts on demand:
+  http://sharepoint.stackexchange.com/questions/101844/why-does-sp-js-load-only-when-i-am-editing-a-web-part-page
+  http://sharepoint.stackexchange.com/questions/125580/sp-js-file-not-loaded-in-a-simple-jsom-example
+  https://msdn.microsoft.com/en-us/library/office/ff409592(v=office.14).aspx
+*/
+/*
+  Loaded all of SP heritage, just to run it fully, but dunno if the directories in index.html head/script section are right, e.g. if it's really 1033/init.js
+  http://allthatjs.com/2012/04/03/using-sharepoint-csom-in-html5-apps/
+*/
+
 var context = SP.ClientContext.get_current();
 var user = context.get_web().get_currentUser();
+
 
 // This code runs when the DOM is ready and creates a context object which is needed to use the SharePoint object model
 $(document).ready(function () {
