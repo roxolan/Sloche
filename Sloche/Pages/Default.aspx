@@ -12,7 +12,7 @@
     <script type="text/javascript" src="/_layouts/15/sp.runtime.js"></script>
     <script type="text/javascript" src="/_layouts/15/sp.js"></script>
     <script type="text/javascript" src="https://fb.me/react-with-addons-0.13.3.js"></script>
-    <script type="text/javascript" src="https://fb.me/JSXTransformer-0.13.3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
     <script type="text/javascript" src="../SiteAssets/sjh.js"></script>
 
     <meta name="WebPartPageExpansion" content="full" />
@@ -22,7 +22,7 @@
 
     <!-- Add your JavaScript to the following file -->
     <script type="text/javascript" src="../Scripts/App.js"></script>
-    <script type="text/jsx" src="../Scripts/hello.jsx"></script>
+    <script type="text/babel" src="../Scripts/hello.jsx"></script>
 </asp:Content>
 
 <%-- The markup in the following Content element will be placed in the TitleArea of the page --%>
