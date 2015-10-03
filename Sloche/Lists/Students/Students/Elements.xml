@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Students in VLE" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/Students" Description="Information about students"></ListInstance>
+</Elements>
