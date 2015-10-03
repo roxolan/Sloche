@@ -2,7 +2,7 @@
     render: function() {
     return (
         <p>
-            Hello, <input type="text" placeholder="Your name here" />!
+            Hello, <input type="text" placeholder="Your name should be spelled right!" />
             It is {this.props.date.toTimeString()}
         </p>
         );

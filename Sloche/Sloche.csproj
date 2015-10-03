@@ -46,6 +46,7 @@
     <Content Include="ConfigurationValues\ConfigurationValuesInstance\Elements.xml" />
     <Content Include="ConfigurationValues\Elements.xml" />
     <Content Include="ConfigurationValues\Schema.xml" />
+    <Content Include="Pages\index.html" />
     <Content Include="SiteAssets\Elements.xml" />
     <Content Include="SiteAssets\sjh.js" />
     <None Include="ConfigurationValues\ConfigurationValuesInstance\SharePointProjectItem.spdata">
