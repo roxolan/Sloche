@@ -1,0 +1,11 @@
+{
+  "name": "sloche",
+  "version": "0.0.1",
+  "description": "ReactJS-inspired Sharepoint-hosted application",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Victor Kotusenko",
+  "license": "ISC"
+}
