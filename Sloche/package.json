@@ -7,5 +7,12 @@
     "test": "mocha"
   },
   "author": "Victor Kotusenko",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6"
+  },
+  "devDependencies": {
+    "webpack": "^1.12.11"
+  }
 }
