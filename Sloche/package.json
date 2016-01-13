@@ -4,7 +4,8 @@
   "description": "ReactJS-inspired Sharepoint-hosted application",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "wtf":  "webpack --display-error-details"
   },
   "author": "Victor Kotusenko",
   "license": "ISC",

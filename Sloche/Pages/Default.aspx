@@ -14,6 +14,7 @@
     <script type="text/javascript" src="https://fb.me/react-with-addons-0.13.3.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
     <script type="text/javascript" src="../SiteAssets/sjh.js"></script>
+    <script src="../build/bundle.js"></script>
 
     <meta name="WebPartPageExpansion" content="full" />
 
@@ -34,9 +35,6 @@
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
 
     <div>
-        <p id="message">
-            is ReactJS around?...
-        </p>
         <p id="example">
             is ReactJS around?...
         </p>

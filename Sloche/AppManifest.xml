@@ -8,7 +8,7 @@
 >
   <Properties>
     <Title>Sloche Project</Title>
-    <StartPage>~appWebUrl/Pages/index.html?{StandardTokens}</StartPage>
+    <StartPage>~appWebUrl/Pages/Default.aspx?{StandardTokens}</StartPage>
   </Properties>
 
   <AppPrincipal>
