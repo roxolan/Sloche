@@ -13,10 +13,5 @@
     "react": "^0.14.6",
     "react-dom": "^0.14.6"
   },
-  "devDependencies": {
-    "css-loader": "^0.23.1",
-    "less-loader": "^2.2.2",
-    "style-loader": "^0.13.0",
-    "webpack": "^1.12.11"
-  }
+  "devDependencies": {}
 }

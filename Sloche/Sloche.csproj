@@ -51,7 +51,6 @@
     <Content Include="Pages\index.html" />
     <Content Include="SiteAssets\Elements.xml" />
     <Content Include="SiteAssets\sjh.js" />
-    <Content Include="webpack.config.js" />
     <None Include="ConfigurationValues\ConfigurationValuesInstance\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{61a27547-284c-4332-a3a3-7670caeb0599}</SharePointProjectItemId>
     </None>
