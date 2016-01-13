@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "wtf":  "webpack --display-error-details"
+    "wtf": "webpack --display-error-details"
   },
   "author": "Victor Kotusenko",
   "license": "ISC",
@@ -14,6 +14,9 @@
     "react-dom": "^0.14.6"
   },
   "devDependencies": {
+    "css-loader": "^0.23.1",
+    "less-loader": "^2.2.2",
+    "style-loader": "^0.13.0",
     "webpack": "^1.12.11"
   }
 }

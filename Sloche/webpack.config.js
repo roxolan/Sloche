@@ -6,5 +6,11 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'build'),
     filename: 'bundle.js'
-  } 
+  },
+  module: {
+    loaders: [
+      { test: /\.css$/, loader: "style!css" },
+      { test: /\.less$/, loader: "style-loader!css-loader!less-loader" }
+    ]
+  }
 };
