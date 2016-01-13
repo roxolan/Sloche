@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="RootModule">
+    <File Path="build\main.bundle.js" Url="build/main.bundle.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

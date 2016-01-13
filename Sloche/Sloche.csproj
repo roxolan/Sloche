@@ -43,9 +43,11 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="build\main.bundle.js" />
     <Content Include="ConfigurationValues\ConfigurationValuesInstance\Elements.xml" />
     <Content Include="ConfigurationValues\Elements.xml" />
     <Content Include="ConfigurationValues\Schema.xml" />
+    <Content Include="Elements.xml" />
     <Content Include="Pages\index.html" />
     <Content Include="SiteAssets\Elements.xml" />
     <Content Include="SiteAssets\sjh.js" />
@@ -62,6 +64,9 @@
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
     <None Include="Scripts\hello.jsx" />
+    <None Include="SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{da52aa7e-1ed4-42b3-a086-4214f3c5b5de}</SharePointProjectItemId>
+    </None>
     <None Include="SiteAssets\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{455d6d01-400a-4385-9d1c-9cef24926075}</SharePointProjectItemId>
     </None>
@@ -115,6 +120,7 @@
       <SubType>Designer</SubType>
     </AppManifestFile>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
